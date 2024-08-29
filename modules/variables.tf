@@ -68,11 +68,3 @@ variable "vulnerabilityScan" {
 variable "adjoin" {
   default     = ""   
 }
-
-###
-# Resource Var's
-###
-variable "monitoring_account_id" {
-  description = "The 12-digit AWS Account ID for the Centralized monitoring account"
-  default     = "833617259660"
-}
